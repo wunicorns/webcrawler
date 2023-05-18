@@ -1,0 +1,37 @@
+{
+  "name": "crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "forever": "forever start server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.5",
+    "consolidate": "^0.16.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "forever": "^3.0.4",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "iconv-lite": "^0.6.2",
+    "jsonwebtoken": "^8.5.1",
+    "mariadb": "^2.5.2",
+    "mustache": "^4.1.0",
+    "node-cron": "^3.0.0",
+    "sequelize": "^6.5.0",
+    "uuid": "^8.3.2",
+    "winston": "^3.3.3",
+    "winston-daily-rotate-file": "^4.5.0",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "database": {
+    "host": "localhost",
+    "port": 3306,
+    "username": "webcnt1",
+    "password": "webcnt1",
+    "name": "webcnt1"
+  },
+  "log": {
+    "path": "/var/log/application/webcnt1"
+  },
+  "application": {
+    "loopTime": 10000
+  }
+}

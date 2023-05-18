@@ -1,0 +1,25 @@
+{
+  "secretKey": "secret",
+  "website": "<hostname>",
+  "siteRoot": "<path>",
+  "target": {
+    "host": "localhost",
+    "port": 3306,
+    "username": "<username>",
+    "password": "<password>",
+    "name": "<databasename>"
+  },
+  "database": {
+    "host": "localhost",
+    "port": 3306,
+    "username": "<username>",
+    "password": "<password>",
+    "name": "<databasename>"
+  },
+  "log": {
+    "path": "/var/log/application/logpath"
+  },
+  "application": {
+    "loopTime": 10000
+  }
+}
